@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style/estilo.css" type="text/css">
+    <link rel="stylesheet" href="style/styles.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
     <title>login</title>
 </head>
 <body>
     <header class="header">
         <img class="header__img" src="img/logo-video.png" alt="logo-video">
-        <div class="header__menu">
+        <!-- <div class="header__menu">
             <div class="header__menu--profile">
                 <img src="img/users.png" alt="Usuario">
                 <p>Perfil</p>
@@ -20,7 +20,33 @@
                 <li><a href="/">Cuenta</a></li>
                 <li><a href="/">Cerrar sesión</a></li>
             </ul>
-        </div>
+        </div> -->
     </header> 
+    <section class="login">
+        <section class="login__container">
+            <h2>Inicia sesión</h2>
+            <form class="login__container--form">
+                <input class="input" type="text" placeholder="Correo">
+                <input class="input" type="password" placeholder="Contraseña">
+                <button class="button">Iniciar sesión</button>
+                <div class="login__container--remember-me">
+                    <label>
+                        <input type="checkbox" name="" id="cbox1" value="checkbox">Recuérdame
+                    </label>
+                    <a href="/">Olvidé mi contraseña</a>
+                </div>
+            </form>
+            <section class="login__container--social-media">
+                <div><img src="img/icons8-logo-de-google-48.png" alt="Google">Inicia sesión con Google</div>    
+                <div><img src="img/icons8-twitter-48.png" alt="Twitter">Inicia sesión con Twitter</div>
+            </section>
+            <p class="login__container--register">No tienes ninguna cuenta <a href="">Regístrate</a></p>
+        </section>
+    </section>
+    <footer class="footer">
+        <a href="/">Términos de uso</a>
+        <a href="/">Declaración de privacidad</a>
+        <a href="/">Centro de ayuda</a>
+    </footer>
 </body>
 </html>
