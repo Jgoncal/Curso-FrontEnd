@@ -91,6 +91,7 @@ body{
 .login__container--inicia-sesion a:hover{
     text-decoration: underline;
 }
+
 .input {
     background-color: transparent;
     border-top: 0px;
